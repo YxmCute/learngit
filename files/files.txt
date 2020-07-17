@@ -1,0 +1,3 @@
+将远程master的改动合并到本地的remote分支
+git checkout remote 
+git rebase orgin/master
