@@ -23,5 +23,12 @@
      $ git config  user.name  "Your name"
      $ git config  user.email "your email"
      ```
+     
 3. .git 中config文件中有相应的信息，如图所示
 ![config](pic/%E6%89%B9%E6%B3%A8%202020-07-18%20095218-1595038199872.png)
+
+4. 		`git config - -list `检查配置信息
+
+        `git config user.name`检查当前项目用户的配置
+
+    `git config --global user.name                                                 `    检查全局用户的配置
