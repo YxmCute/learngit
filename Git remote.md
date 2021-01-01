@@ -1,0 +1,6 @@
+- **git remote** 显示关联的远程仓库名(未修改且只有一个的话一般叫做origin）
+- **git remote -v** 显示关联的远程仓库名和地址
+- **git remote add**   xxx url关联一个名为xxx的地址为url的远程仓库
+- **git remote remove** xxx  删除（取消关联）名为xxx的远程仓库（远程程跟踪分支以及配置信息也会一起被删除。）
+- **git remote show** xxx 看某一个名为xxx远程仓库的更多信息，包括所有远程仓库的分支，远程分支和本地分支的关系
+- **git remote rename** a b 将关联的远程仓库名从a 改为b
