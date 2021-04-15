@@ -1,7 +1,0 @@
-﻿1.将远程master的改动合并到本地的remote分支
-git checkout remote 
-git rebase orgin/master
-2. 如过远程改动了A文件，本地也改动了A文件
- 本地未提交当前的改动
- 本地已提交当前的改动到工作区
-
