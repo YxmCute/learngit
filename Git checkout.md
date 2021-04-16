@@ -12,7 +12,8 @@
 ##### 高级用法
 
 - `git checkout -b xxx commitid`   从历史提交中的某次commit分离出一个新的分支名叫xxx（`git checkout commitid  -b xxx`）一样的可以
-- git checkout -- <file>
+- git checkout -- <file> 撤销对该文件的修改，让该文件回退到最近一次的git add或git commit的状态，如果该文件从未add过，则不起任何作用
+- 
 
 
 
